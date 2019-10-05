@@ -37,7 +37,7 @@
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Cliente.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Pet.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Funcionario.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@
                 <div class="card h-70">
                     <img class="card-img-top" src="imgs/custo.png" alt="" width="500" height="200">
                     <div class="card-body">
-                        <h4 class="card-title">CADASTRAR SERVIÇO</h4>
+                        <h4 class="card-title">CADASTRAR SERVIÇOS</h4>
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Servicos.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Estoque.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                        <a href="Cads/cad_Fornecedor.aspx" class="btn btn-primary">ENTRAR</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+            <p class="m-0 text-center text-white">Copyright &copy; CARLA,LUCAS,DANIEL 2019</p>
         </div>
         <!-- /.container -->
     </footer>

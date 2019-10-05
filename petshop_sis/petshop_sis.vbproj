@@ -104,6 +104,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="forms.aspx" />
+    <Content Include="Gerente\Cads\cad_Estoque.aspx" />
+    <Content Include="Gerente\Cads\cad_Fornecedor.aspx" />
+    <Content Include="Gerente\Cads\cad_Funcionario.aspx" />
+    <Content Include="Gerente\Cads\cad_Pet.aspx" />
+    <Content Include="Gerente\Cads\cad_Servicos.aspx" />
     <Content Include="Gerente\login-gerente.aspx" />
     <Content Include="Gerente\opcoes.aspx" />
     <Content Include="imgs\cadastro.png" />
@@ -180,6 +185,41 @@
     </Compile>
     <Compile Include="forms.aspx.vb">
       <DependentUpon>forms.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Estoque.aspx.designer.vb">
+      <DependentUpon>cad_Estoque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Estoque.aspx.vb">
+      <DependentUpon>cad_Estoque.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Fornecedor.aspx.designer.vb">
+      <DependentUpon>cad_Fornecedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Fornecedor.aspx.vb">
+      <DependentUpon>cad_Fornecedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Funcionario.aspx.designer.vb">
+      <DependentUpon>cad_Funcionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Funcionario.aspx.vb">
+      <DependentUpon>cad_Funcionario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Pet.aspx.designer.vb">
+      <DependentUpon>cad_Pet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Pet.aspx.vb">
+      <DependentUpon>cad_Pet.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Servicos.aspx.designer.vb">
+      <DependentUpon>cad_Servicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gerente\Cads\cad_Servicos.aspx.vb">
+      <DependentUpon>cad_Servicos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Gerente\login-gerente.aspx.designer.vb">

@@ -18,12 +18,12 @@
             <form class="form-signin">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address"/>
-                <label for="inputEmail">Email address</label>
+                <label for="inputEmail">NOME</label>
               </div>
 
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password"/>
-                <label for="inputPassword">Password</label>
+                <label for="inputPassword">SENHA</label>
               </div>
 
               <div class="custom-control custom-checkbox mb-3">

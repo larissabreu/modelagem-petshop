@@ -1,11 +1,11 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="cad_Cliente.aspx.vb" Inherits="petshop_sis.cad_Cliente" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="cad_Servicos.aspx.vb" Inherits="petshop_sis.cad_Servicos" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Cadastro Cliente</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Cadastro Serviços</title>
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
@@ -17,19 +17,19 @@
              <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body">
-            <h5 class="card-title text-center">Cadastrando Cliente</h5>
+            <h5 class="card-title text-center">Cadastrando Serviços</h5>
         
             <form class="form-signin">
   
               <div class="form-label-group">
                  <label for="inputUserame">NOME</label>
-                <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus/>
+                <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus>
                 
               </div>
 
               <div class="form-label-group">
                 <label for="inputEmail">CPF</label>
-                <input type="cpf" id="inputEmail" class="form-control" placeholder="000.000.000-00" required/>
+                <input type="cpf" id="inputEmail" class="form-control" placeholder="000.000.000-00" required>
                 
               </div>
 
