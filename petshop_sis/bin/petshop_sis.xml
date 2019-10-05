@@ -37,6 +37,22 @@ petshop_sis
  Retorna o objeto de log Asp.
  </summary>
 </member>
+<member name="T:petshop_sis.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:petshop_sis.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:petshop_sis.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
 <member name="F:petshop_sis.informacoes_pet._form1">
 <summary>
 Controle form1.

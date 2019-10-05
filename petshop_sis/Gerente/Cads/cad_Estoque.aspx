@@ -17,31 +17,36 @@
              <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body">
-            <h5 class="card-title text-center">Cadastrando Cliente</h5>
+            <h5 class="card-title text-center">Cadastrando Estoque</h5>
         
             <form class="form-signin">
   
               <div class="form-label-group">
-                 <label for="inputUserame">NOME</label>
-                <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus>
+                 <label for="inputUserame">NOME DO PRODUTO</label>
+                <input type="text" id="inputUserame" class="form-control" placeholder="Nome " required autofocus>
                 
               </div>
 
               <div class="form-label-group">
-                <label for="inputEmail">CPF</label>
-                <input type="cpf" id="inputEmail" class="form-control" placeholder="000.000.000-00" required>
+                <label for="inputEmail">CÓDIGO DE BARRAS</label>
+                <input type="number" id="inputEmail" class="form-control" placeholder="" required>
                 
               </div>
 
               <div class="form-label-group">
-                <label for="inputPassword">ENDEREÇO</label>
-                <input type="text" id="inputPassword" class="form-control" placeholder="" required>
+                <label for="inputPassword">QUANTIDADE</label>
+                <input type="number" id="inputPassword" class="form-control" placeholder="" required>
                 
               </div>
               
               <div class="form-label-group">
-                <label for="inputConfirmPassword">TELEFONE</label>
-                <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>                
+				<label for="inputPassword">FORNECEDOR</label>
+				  <br />
+				  <select name="fornecedor">
+					<option value="pedigree">Pedigree</option>
+					<option value="golden">Golden</option>
+					<option value="whiskas">Whiskas</option>
+				  </select>
               </div>
               <hr />
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>

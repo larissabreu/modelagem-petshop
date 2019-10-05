@@ -17,7 +17,7 @@
              <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body">
-            <h5 class="card-title text-center">Cadastrando Cliente</h5>
+            <h5 class="card-title text-center">Cadastrando Funcionário</h5>
         
             <form class="form-signin">
   
@@ -42,6 +42,16 @@
               <div class="form-label-group">
                 <label for="inputConfirmPassword">TELEFONE</label>
                 <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>                
+              </div>
+
+			  <div class="form-label-group">
+				<label for="inputPassword">FUNÇÃO</label>
+				  <br />
+				  <select name="fornecedor">
+					<option value="gerente">Gerente</option>
+					<option value="vet">Veterinário</option>
+					<option value="caixa">Vendedor</option>
+				  </select>
               </div>
               <hr />
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
