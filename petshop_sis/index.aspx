@@ -100,7 +100,7 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-70">
-          <img class="card-img-top" src="imgs/medico.png" alt="" width="500" height="200">
+          <img class="card-img" src="imgs/medico.png" alt="" width="50" height="200">
           <div class="card-body">
             <h4 class="card-title">VETERINÁRIO</h4>
             <p class="card-text"></p>
