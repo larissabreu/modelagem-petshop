@@ -97,7 +97,7 @@
                 <div class="card h-70">
                     <img class="card-img" src="imgs/cadastro.png" alt="" width="500" height="200">
                     <div class="card-body">
-                        <h4 class="card-title">CADASTRAR ESTOQUE</h4>
+                        <h4 class="card-title">CADASTRAR FORNECEDOR</h4>
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer">

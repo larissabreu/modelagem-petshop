@@ -61,13 +61,13 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-70">
-          <img class="card-img" src="imgs/cadastro.png" alt="" width="500" height="200">
+          <img class="card-img" src="imgs/cliente.png" alt="" width="500" height="200">
           <div class="card-body">
             <h4 class="card-title">CLIENTE</h4>
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">ENTRAR</a>
+            <a href="Cliente/login-cliente.aspx" class="btn btn-primary">ENTRAR</a>
           </div>
         </div>
       </div>
@@ -80,14 +80,14 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="Gerente/opcoes.aspx" class="btn btn-primary">ENTRAR</a>
+            <a href="Gerente/login-gerente.aspx" class="btn btn-primary">ENTRAR</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-70">
-          <img class="card-img-top" src="imgs/lista-de-controle.png" alt="" width="500" height="200">
+          <img class="card-img-top" src="imgs/divida.png" alt="" width="500" height="200">
           <div class="card-body">
             <h4 class="card-title">VENDEDOR</h4>
             <p class="card-text"></p>
@@ -100,7 +100,7 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-70">
-          <img class="card-img-top" src="imgs/custo.png" alt="" width="500" height="200">
+          <img class="card-img-top" src="imgs/medico.png" alt="" width="500" height="200">
           <div class="card-body">
             <h4 class="card-title">VETERINÁRIO</h4>
             <p class="card-text"></p>
