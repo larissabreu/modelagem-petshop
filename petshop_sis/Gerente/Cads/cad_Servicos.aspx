@@ -28,21 +28,10 @@
               </div>
 
               <div class="form-label-group">
-                <label for="inputEmail">CPF</label>
-                <input type="cpf" id="inputEmail" class="form-control" placeholder="000.000.000-00" required>
+                <label for="inputEmail">PREÇO</label>
+                <input type="number" id="inputEmail" class="form-control" placeholder="0.00" required>
                 
-              </div>
-
-              <div class="form-label-group">
-                <label for="inputPassword">ENDEREÇO</label>
-                <input type="text" id="inputPassword" class="form-control" placeholder="" required>
-                
-              </div>
-              
-              <div class="form-label-group">
-                <label for="inputConfirmPassword">TELEFONE</label>
-                <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>                
-              </div>
+              </div>              
               <hr />
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
             </form>

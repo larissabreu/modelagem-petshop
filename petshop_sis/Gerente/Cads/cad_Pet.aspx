@@ -17,31 +17,35 @@
              <!-- Background image for card set in CSS! -->
           </div>
           <div class="card-body">
-            <h5 class="card-title text-center">Cadastrando Cliente</h5>
+            <h5 class="card-title text-center">Cadastrando Pet</h5>
         
             <form class="form-signin">
   
               <div class="form-label-group">
-                 <label for="inputUserame">NOME</label>
+                 <label for="inputUserame">NOME DO DONO</label>
                 <input type="text" id="inputUserame" class="form-control" placeholder="Nome" required autofocus>
                 
               </div>
 
               <div class="form-label-group">
-                <label for="inputEmail">CPF</label>
+                <label for="inputEmail">CPF DO DONO</label>
                 <input type="cpf" id="inputEmail" class="form-control" placeholder="000.000.000-00" required>
                 
               </div>
 
               <div class="form-label-group">
-                <label for="inputPassword">ENDEREÇO</label>
+                <label for="inputPassword">NOME DO PET</label>
                 <input type="text" id="inputPassword" class="form-control" placeholder="" required>
                 
               </div>
               
               <div class="form-label-group">
-                <label for="inputConfirmPassword">TELEFONE</label>
-                <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>                
+                <label for="inputConfirmPassword">TIPO DE PET</label>
+                <input type="text" id="inputConfirmPassword" class="form-control" placeholder="" required> 
+
+			   <div class="form-label-group">
+                <label for="inputConfirmPassword">IDENTIFICAÇÃO DO PET</label>
+                <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>  
               </div>
               <hr />
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
