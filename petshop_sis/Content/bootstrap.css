@@ -239,14 +239,22 @@ button:focus {
 input,
 button,
 select,
-optgroup,
-textarea {
+optgroup {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
 button,
 input {
   overflow: visible;

@@ -106,7 +106,7 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">ENTRAR</a>
+            <a href="Veterinario/login-vet.aspx" class="btn btn-primary">ENTRAR</a>
           </div>
         </div>
       </div>
