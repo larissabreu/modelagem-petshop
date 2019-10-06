@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Caixa\js\total.js" />
+    <Content Include="Caixa\login-vendedor.aspx" />
     <Content Include="Caixa\registrar-venda.aspx" />
     <Content Include="Cliente\informacoes-pet.aspx" />
     <Content Include="Cliente\login-cliente.aspx" />
@@ -163,6 +164,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caixa\login-vendedor.aspx.designer.vb">
+      <DependentUpon>login-vendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caixa\login-vendedor.aspx.vb">
+      <DependentUpon>login-vendedor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Caixa\registrar-venda.aspx.designer.vb">
       <DependentUpon>registrar-venda.aspx</DependentUpon>
     </Compile>
