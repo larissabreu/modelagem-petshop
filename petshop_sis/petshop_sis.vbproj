@@ -94,6 +94,8 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Caixa\js\total.js" />
+    <Content Include="Caixa\registrar-venda.aspx" />
     <Content Include="Cliente\informacoes-pet.aspx" />
     <Content Include="Cliente\login-cliente.aspx" />
     <Content Include="Gerente\Cads\cad_Cliente.aspx" />
@@ -161,6 +163,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caixa\registrar-venda.aspx.designer.vb">
+      <DependentUpon>registrar-venda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caixa\registrar-venda.aspx.vb">
+      <DependentUpon>registrar-venda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Cliente\informacoes-pet.aspx.designer.vb">
       <DependentUpon>informacoes-pet.aspx</DependentUpon>
     </Compile>
@@ -329,9 +338,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Caixa\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
