@@ -93,7 +93,7 @@
             <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">ENTRAR</a>
+            <a href="Caixa/login-vendedor.aspx" class="btn btn-primary">ENTRAR</a>
           </div>
         </div>
       </div>
