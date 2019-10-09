@@ -1,4 +1,4 @@
-﻿Public Class login_vendedor
+﻿Public Class cad_Fornecedor
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

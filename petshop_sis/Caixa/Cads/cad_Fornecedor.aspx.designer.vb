@@ -11,5 +11,5 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class registrar_venda
+Partial Public Class cad_Fornecedor
 End Class
