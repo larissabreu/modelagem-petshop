@@ -32,20 +32,30 @@
                         <!-- Background image for card set in CSS! -->
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Cadastrando Cliente</h5>
+                        <h5 class="card-title text-center">Caixa</h5>
                         <form name="calcform" method="post" action="">
                             <fieldset>
                                 <div class="form-label-group">
-                                    <label for="valor1">Produto:</label>
-                                    <input type="text" name="produto" id="produto1" />
+                                    <label for="cliente">CLIENTE(CPF):</label>
+                                    <input type="text" name="cliente" id="cliente" />
+                                </div>
+                                    <br /><br />
+                                    <label for="produto1">Produto:</label>
+                                    <input type="text" name="produto" id="produto1" /><br />
                                     <label for="valor1">Preço:</label>
                                     <input type="text" name="valor1" id="valor1" />
-                                </div>
+                                    <label for="qtd1">Quantidade:</label>
+                                    <input type="number" name="qtd1" id="qtd1" />
+                                    <input type="button" value="+"/>
                                 <div class="form-label-group">
-                                    <label for="valor1">Produto:</label>
-                                    <input type="text" name="produto" id="produto2" />
+                                    <br />
+                                    <label for="produto2">Serviço:</label>
+                                    <input type="text" name="produto" id="produto2" /> <br />
                                     <label for="valor2">Preço:</label>
                                     <input type="text" name="valor2" id="valor2" />
+                                    <label for="qtd2">Quantidade:</label>
+                                    <input type="number" name="qtd2" id="qtd2" />
+                                    <input type="button" value="+"/>
                                 </div>
                                 <div class="form-label-group">
                                     <label for="res">TOTAL DA COMPRA:</label>
@@ -53,12 +63,15 @@
                                     <input type="button" value="Calcular" onclick="calcularTotal();" />
                                     <br />
                                 </div>
-                                <label for="valorpago">VALOR PAGO:</label>
-                                <input type="text" name="valorpago" id="valorpago" />
-                                <br />
-                                <label for="troco">TROCO:</label>
-                                <output name="troco" id="troco" />
-                                <input type="button" value="CalcularTroco" onclick="calcularTroco();" />
+                                <div class="form-label-group">
+                                    <label for="valorpago">VALOR PAGO:</label>
+                                    <input type="text" name="valorpago" id="valorpago" />
+                                    <br />
+                                    <label for="troco">TROCO:</label>
+                                    <output name="troco" id="troco" />
+                                    <input type="button" value="CalcularTroco" onclick="calcularTroco();" />
+                                </div>
+
                             </fieldset>
                         </form>
 

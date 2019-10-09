@@ -44,7 +44,7 @@
                 <input type="text" id="inputConfirmPassword" class="form-control" placeholder="" required> 
 
 			   <div class="form-label-group">
-                <label for="inputConfirmPassword">IDENTIFICAÇÃO DO PET</label>
+                <label for="inputConfirmPassword">N° IDENTIFICAÇÃO DO PET</label>
                 <input type="number" id="inputConfirmPassword" class="form-control" placeholder="" required>  
               </div>
               <hr />
