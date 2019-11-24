@@ -31,7 +31,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img" src="imgs/cadastro.png" alt="" width="500" height="200">
+                    <img class="card-img" src="../imgs/add-client.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR CLIENTE</h4>
                         <p class="card-text"></p>
@@ -44,7 +44,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img-top" src="imgs/paciente.png" alt="" width="500" height="200">
+                    <img class="card-img-top" src="../imgs/pets.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR PET</h4>
                         <p class="card-text"></p>
@@ -57,7 +57,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img-top" src="imgs/lista-de-controle.png" alt="" width="500" height="200">
+                    <img class="card-img-top" src="../imgs/funcionario.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR FUNCIONÁRIO</h4>
                         <p class="card-text"></p>
@@ -70,7 +70,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img-top" src="imgs/custo.png" alt="" width="500" height="200">
+                    <img class="card-img-top" src="../imgs/servicos.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR SERVIÇOS</h4>
                         <p class="card-text"></p>
@@ -82,7 +82,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img" src="imgs/cadastro.png" alt="" width="500" height="200">
+                    <img class="card-img-top" src="../imgs/estoque.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR ESTOQUE</h4>
                         <p class="card-text"></p>
@@ -95,7 +95,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card h-70">
-                    <img class="card-img" src="imgs/cadastro.png" alt="" width="500" height="200">
+                    <img class="card-img-top" src="../imgs/fornecedor.png" alt="" width="500" height="200">
                     <div class="card-body">
                         <h4 class="card-title">CADASTRAR FORNECEDOR</h4>
                         <p class="card-text"></p>
@@ -106,6 +106,18 @@
                 </div>
             </div>
 
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card h-70">
+                    <img class="card-img-top" src="../imgs/produtos.png" alt="" width="50" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">CADASTRAR PRODUTOS</h4>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">ENTRAR</a>
+                    </div>
+                </div>
+            </div>        
         </div>
         <!-- /.row -->
 

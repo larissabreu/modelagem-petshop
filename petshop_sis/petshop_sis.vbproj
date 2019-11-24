@@ -103,7 +103,6 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="forms.aspx" />
     <Content Include="Gerente\Cads\cad_Estoque.aspx" />
     <Content Include="Gerente\Cads\cad_Fornecedor.aspx" />
     <Content Include="Gerente\Cads\cad_Funcionario.aspx" />
@@ -111,14 +110,22 @@
     <Content Include="Gerente\Cads\cad_Servicos.aspx" />
     <Content Include="Gerente\login-gerente.aspx" />
     <Content Include="Gerente\opcoes.aspx" />
+    <Content Include="imgs\add-client.png" />
     <Content Include="imgs\cadastro.png" />
     <Content Include="imgs\cliente.png" />
     <Content Include="imgs\custo.png" />
     <Content Include="imgs\divida.png" />
+    <Content Include="imgs\estoque.png" />
+    <Content Include="imgs\fornecedor.png" />
+    <Content Include="imgs\funcionario.png" />
     <Content Include="imgs\lista-de-controle.png" />
     <Content Include="imgs\medico.png" />
     <Content Include="imgs\nuvem.png" />
     <Content Include="imgs\paciente.png" />
+    <Content Include="imgs\pet.png" />
+    <Content Include="imgs\pets.png" />
+    <Content Include="imgs\produtos.png" />
+    <Content Include="imgs\servicos.png" />
     <Content Include="index.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -155,7 +162,6 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="TESTE.aspx" />
     <Content Include="Veterinario\login-vet.aspx" />
     <Content Include="Veterinario\servicos-realizados-pet.aspx" />
     <Content Include="Web.config" />
@@ -180,13 +186,6 @@
     </Compile>
     <Compile Include="Gerente\Cads\cad_Cliente.aspx.vb">
       <DependentUpon>cad_Cliente.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="forms.aspx.designer.vb">
-      <DependentUpon>forms.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="forms.aspx.vb">
-      <DependentUpon>forms.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Gerente\Cads\cad_Estoque.aspx.designer.vb">
@@ -263,13 +262,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="TESTE.aspx.designer.vb">
-      <DependentUpon>TESTE.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TESTE.aspx.vb">
-      <DependentUpon>TESTE.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Veterinario\login-vet.aspx.designer.vb">
       <DependentUpon>login-vet.aspx</DependentUpon>

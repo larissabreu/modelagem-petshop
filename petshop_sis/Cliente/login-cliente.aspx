@@ -17,11 +17,12 @@
             <h5 class="card-title text-center">LOGIN</h5>
             <form class="form-signin">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder=""/>
-                <label for="inputEmail">CODIGO DO PET</label>
+                <label for="inputCPF">CPF</label>
+                <input type="email" id="inputCPF" class="form-control" maxlength="11" required/>           
+              </div> <br />
+              <div>
+              <a href="informacoes-pet.aspx" class="btn btn-primary" type="submit">ENTRAR</a>
               </div>
-
-              <a href="informacoes-pet.aspx" class="btn btn-primary">ENTRAR</a>
             </form>
           </div>
         </div>

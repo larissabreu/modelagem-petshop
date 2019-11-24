@@ -16,18 +16,11 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Login</h5>
                         <form class="form-signin">
-                            <div class="form-label-group">
-                                <label for="inputEmail">NOME</label>
-                                <input type="email" id="inputEmail" class="form-control" placeholder="" />
-
-                            </div>
 
                             <div class="form-label-group">
-                                <label for="inputPassword">SENHA</label>
-                                <input type="password" id="inputPassword" class="form-control" placeholder="" />
-
-                            </div>
-
+                                <label for="inputCPF">CPF</label>
+                                <input type="cpf" id="inputCPF" class="form-control" maxlength="11" />
+                            </div><br />
 
                             <a href="opcoes.aspx" class="btn btn-primary">ENTRAR</a>
                         </form>

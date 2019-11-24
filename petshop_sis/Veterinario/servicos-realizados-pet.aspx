@@ -46,7 +46,12 @@
                                 <textarea id="msg" ></textarea>
                             </div>
                             <hr />
-                            <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Cadastrar</button>
+                            <p>
+                  
+                            <button class="btn btn-success" type="submit">Cadastrar</button>
+                            <button class="btn btn-warning" type="submit">Editar</button>
+                            <button class="btn btn-danger" type="submit">Excluir</button>
+                            </p>
                         </form>
                     </div>
                 </div>

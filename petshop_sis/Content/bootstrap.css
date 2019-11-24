@@ -4661,7 +4661,8 @@ input[type="button"].btn-block {
 }
 
 .card-img {
-    width: 100%;
+    width: 50%;
+    align-content:center;
     border-radius: calc(0.25rem - 1px);
 }
 
