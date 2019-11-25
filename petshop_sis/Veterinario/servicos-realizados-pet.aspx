@@ -43,10 +43,12 @@
                         <!-- Background image for card set in CSS! -->
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-center">Registrar Serviço Realizado no Pet</h5>
-
+                        <h5 class="card-title text-center"><b>REGISTRAR SERVIÇO REALIZADO NO PET</b></h5>
+                        <br />
+                        <button class="btn btn-info" type="submit">🔎 PROCURAR REGISTRO EXISTENTE</button>
+                        <br /><br />
                         <form class="form-signin">
-
+                            
                             <div class="form-label-group">
                                 <label for="inputUserame">N° de identificação (PET)</label>
                                 <input type="number" id="inputUserame" class="form-control" placeholder="" required autofocus>
@@ -57,26 +59,34 @@
                                 <input type="text" id="inputEmail" class="form-control" placeholder="" required>
                             </div>
                             <p>
-                            <div class="form-label-group">
-                                <label for="inputPassword">SERVIÇO REALIZADO</label><br/> 
-                                 <select name="servico">
-                                    <option value="tosar">Tosa</option>
-                                    <option value="vacina">Vacina</option>
-                                    <option value="banho">Banho</option>
-                                    <!-- ... -->
-                                </select>                             
-                            </div>
+                                <div class="form-label-group">
+                                    <label for="inputPassword">SERVIÇO REALIZADO</label><br />
+                                    <select name="servico">
+                                        <option value="tosar">Tosa</option>
+                                        <option value="vacina">Vacina</option>
+                                        <option value="banho">Banho</option>
+                                        <!-- ... -->
+                                    </select>
+                                </div>
                             </p>
                             <div class="form-label-group">
-                                <label for="inputConfirmPassword">OBSERVAÇÕES</label><br/> 
-                                <textarea id="msg" ></textarea>
+                                <label for="inputConfirmPassword">OBSERVAÇÕES</label><br />
+                                <textarea id="msg"></textarea>
                             </div>
                             <hr />
                             <p>
-                  
-                            <button class="btn btn-success" type="submit">Cadastrar</button>
-                            <button class="btn btn-warning" type="submit">Editar</button>
-                            <button class="btn btn-danger" type="submit">Excluir</button>
+                                <div class="row justify-content-md-center">
+                                    <div class="col col-lg-2">
+                                    </div>
+                                    <div class="col-md-auto">
+                                        <button class="btn btn-success" type="submit">Cadastrar ✅ </button>
+                                        <button class="btn btn-warning" type="submit">Editar ✎ </button>
+                                        <button class="btn btn-danger" type="submit">Excluir ❌</button>
+                                    </div>
+                                    <div class="col col-lg-2">
+                                    </div>
+                                </div>
+
                             </p>
                         </form>
                     </div>
